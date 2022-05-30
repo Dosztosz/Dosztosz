@@ -1,6 +1,17 @@
 - 👋 Hi, I’m @Dosztosz formally Tomasz Dębosz currently I'm learning to be a PHP developer why? becouse I think it's interesting and fun.
 - 🌱 I’m currently learning HTML / CSS / PHP
-- 📫 How to reach me by phone +48 506 409 529 or by my email dosztosz@int.pl
+
+
+Hello there... 👋
+I’m @Dosztosz formally Tomasz Dębosz currently I'm learning to be a PHP developer why? becouse I think it's interesting and fun.
+
+BIO
+
+    🏢 I'm currently working at Magnetic Mobel
+    ⚙️ I use daily: .php, .html, .css, .svg, .psd, .ai, .blend, .obj
+    💬 Ping me about design, branding, laravel, development, design thinking
+    📫 How to reach me: by my email dosztosz@int.pl
+    ⚡️ Fun fact: I'm a huge fan of Pirates (The ones on the ship)
 
 
 
