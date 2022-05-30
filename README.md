@@ -9,7 +9,6 @@ BIO
 
     🏢 I'm currently working at Magnetic Mobel
     ⚙️ I use daily: .php, .html, .css, .svg, .psd, .ai, .blend, .obj
-    💬 Ping me about design, branding, laravel, development, design thinking
     📫 How to reach me: by my email dosztosz@int.pl
     ⚡️ Fun fact: I'm a huge fan of Pirates (The ones on the ship)
 
