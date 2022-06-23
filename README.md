@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Dosztosz formally Tomasz Dębosz currently I'm learning to be a PHP developer why? becouse I think it's interesting and fun.
+- 👋 Hi, I’m @Dosztosz formally Tomasz Dębosz currently I'm learning to be a PHP developer why? because I think it's interesting and fun.
 - 🌱 I’m currently learning HTML / CSS / PHP
 
 
