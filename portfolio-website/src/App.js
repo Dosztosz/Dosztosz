@@ -1,5 +1,5 @@
 import "./App.css";
-import MainNavBar from "./components/MainNavBar";
+import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio";
 function App() {
   return (
     <div className="App">
-      <MainNavBar />
+      <Navbar />
       <Main />
       <About />
       {/* <Portfolio /> */}

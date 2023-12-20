@@ -3,7 +3,7 @@ function MainNavBar() {
   return (
     <nav style={{backgroundColor: '#020214'}}>
       <ul>
-        <li></li>
+        <li>Menu</li>
         <li></li>
         <li></li>
         <li></li>

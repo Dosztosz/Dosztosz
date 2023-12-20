@@ -10,7 +10,7 @@ import ST from "../img/stick.PNG"
 function About() {
     return(
         <div>
-            <h2 style={{marginBottom: '20px'}}>About</h2>
+            <h2>About</h2>
             <div className="row">
                 <div><IconDesc Title="Responsive" Description="My layouts look and work great on any screen size." ImgUrl={DS}/></div>
                 <div><IconDesc Title="Intuitive" Description="Easy to understand and navigate user interface (UI/UX)." ImgUrl={IE}/></div>
@@ -18,7 +18,7 @@ function About() {
                 <div><IconDesc Title="Accessible" Description="Designed to function properly with assistive technologies and ensure usability for every visitor." ImgUrl={ST}/></div>
             </div>
             <h3>Programs / Languages</h3>
-            <div className="grid-4" style="display: grid; grid-template-columnd: 1fr 1fr 1fr 1fr;">
+            <div className="grid-4">
                 <ProgramIcon />
                 <ProgramIcon />
                 <ProgramIcon />
