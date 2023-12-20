@@ -1,3 +1,65 @@
+.background-sky {
+  background-image: url("img/pexels-francesco-ungaro-998641.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  z-index: 1;
+}
+
 .smallImg {
   width: 25%;
+}
+
+.h-90 {
+  min-height: 90vh;
+}
+
+.text-center {
+  margin: auto;
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.pt-60 {
+  padding-top: 60vh;
+}
+
+.RoundLogo {
+  max-width: 70vh;
+  z-index: 2;
+}
+
+.React-Wrapper {
+  position: absolute;
+  top: 10vh;
+  left: 20vh;
+  z-index: 2;
+  animation: Turn 10s infinite;
+  animation-timing-function: linear;
+}
+
+.index {
+  z-index: 3;
+  position: relative;
+}
+
+/* The animation code */
+@keyframes Turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg) translateY(-25px);
+  }
+  50% {
+    transform: rotate(180) translateY(-25px);
+  }
+  75% {
+    transform: rotate(270) translateY(50px);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

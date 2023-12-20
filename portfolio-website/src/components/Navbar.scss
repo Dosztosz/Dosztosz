@@ -1,7 +1,9 @@
 // Navbar.scss
 .navbar {
   background-color: #333;
-  padding: 10px;
+  padding: 10px 10vw;
+  display: flex;
+  justify-content: space-between;
 
   .nav-list {
     list-style: none;
@@ -14,11 +16,15 @@
       color: #fff;
       cursor: pointer;
       transition: 0.3s;
+      text-decoration: none;
 
       &:hover {
         color: #ccc;
         text-decoration: underline;
       }
     }
+  }
+  img {
+    max-height: 50px;
   }
 }

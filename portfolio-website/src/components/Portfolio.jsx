@@ -1,9 +1,9 @@
-import Project from "./Project"
+// import Project from "./Project"
 
 function Portfolio() {
     return(
         <div className="">
-            <Project />
+            {/* <Project /> */}
         </div>
 
     )

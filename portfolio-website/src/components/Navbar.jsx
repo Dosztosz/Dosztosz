@@ -1,22 +1,24 @@
 // Navbar.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
+    <nav className='navbar'>
+      <img src="../img/ds.PNG"/>
+      <ul className='nav-list'>
         <li>
-          <Link to="/">Home</Link>
+          <Link className='nav-item' to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link className='nav-item' to="/about">About</Link>
         </li>
         <li>
-          <Link to="/services">Services</Link>
+          <Link className='nav-item' to="/services">Services</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link className='nav-item' to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

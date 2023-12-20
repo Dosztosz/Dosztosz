@@ -1,19 +1,25 @@
-import "./App.css";
+// App.jsx
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import Home from "./components/Home";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
-      <About />
-      {/* <Portfolio /> */}
-      {/* <Footer /> */}
+    <div className="wrapper background-sky">
+      <Router>
+        <div>
+          <Navbar />
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
