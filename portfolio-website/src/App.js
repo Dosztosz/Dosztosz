@@ -9,6 +9,8 @@ import "./App.css";
 const App = () => {
   return (
     <div className="wrapper background-sky">
+      <Home />
+      <About />
       <Router>
         <div>
           <Navbar />

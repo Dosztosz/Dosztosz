@@ -1,5 +1,13 @@
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  color: white;
+}
 .background-sky {
-  background-image: url("img/pexels-francesco-ungaro-998641.jpg");
+  background-image: url("img/background.jpg");
   background-size: contain;
   background-repeat: repeat;
   z-index: 1;
@@ -7,10 +15,6 @@
 
 .smallImg {
   width: 25%;
-}
-
-.h-90 {
-  min-height: 90vh;
 }
 
 .text-center {
@@ -34,15 +38,29 @@
 .React-Wrapper {
   position: absolute;
   top: 10vh;
-  left: 20vh;
+  left: 50vh;
   z-index: 2;
-  animation: Turn 10s infinite;
+  animation: Turn 15s infinite;
   animation-timing-function: linear;
 }
 
 .index {
   z-index: 3;
   position: relative;
+}
+
+.main-text {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+.button {
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  background-color: transparent;
 }
 
 /* The animation code */

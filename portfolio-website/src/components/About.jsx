@@ -11,6 +11,9 @@ function About() {
     return(
         <div>
             <h2>About</h2>
+            <p>Hi! I’m Marcin, a frontend developer based in Poland currently looking for a full-time remote job. Most of the
+projects in my portfolio are personal, but I also have commercial experience in building landing pages. Tech
+stack I have been working with:</p>
             <div className="row">
                 <div><IconDesc Title="Responsive" Description="My layouts look and work great on any screen size." ImgUrl={DS}/></div>
                 <div><IconDesc Title="Intuitive" Description="Easy to understand and navigate user interface (UI/UX)." ImgUrl={IE}/></div>
